@@ -148,11 +148,11 @@ def predict_with_uncertainty(model_fn, x, n_iter=100):
 # =============================================================================
 
 # --- Paths (update before running) ---
-filepath      = "/content/gdrive/MyDrive/S3/paper22/"
+filepath      = "/content/gdrive/MyDrive/LSTM_TTV/"
 datatrain_name = "datatrain_paper2_10k_250_filtered"
 filename      = filepath + datatrain_name + ".pkl"
 
-log_dir = "/content/gdrive/MyDrive/S3/revisi_paper/revisi_paper/model_logs_LSTM/experiment_2025-11-22_21-28-54"
+log_dir = "/content/gdrive/MyDrive/LSTM_TTV"
 
 
 def load_and_preprocess(filename, limit=100000, noise_factor=0.2):
